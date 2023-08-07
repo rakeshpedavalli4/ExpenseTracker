@@ -1,0 +1,61 @@
+.Expense_name{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: black;
+    width:auto;
+    height:auto;
+}
+.Expense_name h1{
+    text-align: center;
+    color: white
+}
+.Input {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-color:black;
+    width:auto;
+    height:auto;
+    padding: 100px;
+    background-color: cadetblue;
+}
+.Input input{
+    width:135px;
+    height: 30px;
+    text-align: center;
+    cursor:text;
+}
+Button{
+    width: 80px;
+    height:30px;
+    padding:auto;
+    text-align: center;
+}
+.ExpenseList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(161, 156, 156);
+    flex: 1;
+}
+
+.ExpenseRow{
+    display:block;
+    margin: 10px;
+    padding:5px;
+    width: calc(33.33% - 10px);
+    background-color: antiquewhite;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Expenseitem{
+    padding:10px;
+} 
+
+.inline{
+    text-align: center;
+    padding: 10px;
+}
